@@ -69,8 +69,8 @@ def paddle_b_down():
         paddle_b.sety(y)
 
 # Scores
-scoreOscar = 0
-scoreCrystal = 0
+player1 = 0
+player2 = 0
  
 # Pen
 pen = turtle.Turtle()
@@ -95,7 +95,7 @@ while gamePlaying:
     wn.update()
 
     pen.clear()
-    pen.write(f'Oscar: {scoreOscar}    Crystal: {scoreCrystal}', align='center', font=('Courier',24,'normal'))
+    pen.write(f'Player 1: {scoreOscar}    Player 2: {scoreCrystal}', align='center', font=('Courier',24,'normal'))
 
 
     #Move the ball
